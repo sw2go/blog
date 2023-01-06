@@ -3,9 +3,8 @@ layout: post
 title: How to setup your own blog
 date: 2023-01-06
 published: true
-categories: jekyll
 ---
-
+## Overview
 To setup your own blog just follow the instructions at [GitHub pages](https://github.com/skills/github-pages). 
 
 I followed the tutorial myself to create `André's Blog`, the blog you are reading right now. In less than an hour you will get:
@@ -17,5 +16,50 @@ I followed the tutorial myself to create `André's Blog`, the blog you are readi
 And you will learn to write content for Jekyll with:
 - [Front Matter](https://jekyllrb.com/docs/front-matter/)
 - [Markdown](https://kramdown.gettalong.org/quickref.html)
+- [Jekyll Minima Theme](https://github.com/jekyll/minima)
 - [Blog Source Code](https://github.com/sw2go/blog)
+
+## To create a new post
+
+Create a new markdown file in the `_posts` folder and open it 
+~~~
+2023-01-06-how-to-xyz.md
+~~~
+Enter a front matter section ...
+~~~
+---
+layout: post
+title: How to XYZ
+date: 2023-01-06
+published: true
+---
+~~~
+... then write your content 
+~~~
+# How to xyz
+lorem ipsum ..
+~~~
+
+## Jekyll minima variables
+I did not find a complete list of all variables you can use in the minima theme. The best way is to check the [minima repository](https://github.com/jekyll/minima/tree/master). 
+
+
+
+
+
+
+## To change minima default footer layout
+Create a `_includes` folder and copy the `footer.html` from [here](https://github.com/jekyll/minima/tree/master/_includes) into it. Then edit `footer.html` as you like.
+
+
+
+
+
+
+
+
+
+
+
+
 

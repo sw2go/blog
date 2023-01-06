@@ -1,4 +1,6 @@
-theme: minima
+remote_theme: jekyll/minima
+minima:
+  skin: dark
 title: André's Blog
 description: Insights and tips for IT interested people like you and me. 
 header_pages:
