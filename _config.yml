@@ -1,6 +1,5 @@
 theme: minima
 title: André's Blog
-author: 
 description: Insights and tips for IT interested people like you and me. 
 header_pages:
   - projects.md

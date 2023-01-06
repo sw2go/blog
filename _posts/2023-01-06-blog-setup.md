@@ -17,6 +17,5 @@ I followed the tutorial myself to create `André's Blog`, the blog you are readi
 And you will learn to write content for Jekyll with:
 - [Front Matter](https://jekyllrb.com/docs/front-matter/)
 - [Markdown](https://kramdown.gettalong.org/quickref.html)
-
-
+- [Blog Source Code](https://github.com/sw2go/blog)
 
