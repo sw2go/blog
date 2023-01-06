@@ -1,4 +1,7 @@
 theme: minima
 title: André's Blog
-author: sw2go
+author: 
 description: Insights and tips for IT interested people like you and me. 
+header_pages:
+  - projects.md
+  - about.md
