@@ -20,12 +20,11 @@ And you will learn to write content for Jekyll with:
 - [Blog Source Code](https://github.com/sw2go/blog)
 
 ## To create a new post
-
 Create a new markdown file in the `_posts` folder and open it 
 ~~~
 2023-01-06-how-to-xyz.md
 ~~~
-Enter a front matter section ...
+Always insert a `front matter` section at the beginning.
 ~~~
 ---
 layout: post
@@ -34,21 +33,42 @@ date: 2023-01-06
 published: true
 ---
 ~~~
-... then write your content 
+Add your content in `markdown` syntax below. 
 ~~~
 # How to xyz
 lorem ipsum ..
+~~~
+
+## To create a new page
+Create a new markdown file i.e. `projects.md` in the `root` folder and insert a slightly different `front matter` section.
+~~~
+---
+layout: page
+title: Projects
+---
+~~~
+Then extend the `header_pages` section in `_config.yml`.
+~~~
+header_pages:
+  - projects.md
+  - about.md
+~~~
+
+## Jekyll minima dark theme
+Edit `_config.yml` and replace `theme: minima` with `remote_theme: jekyll/minima` and set skin to dark.
+~~~
+remote_theme: jekyll/minima
+minima:
+  skin: dark
 ~~~
 
 ## Jekyll minima variables
 I did not find a complete list of the variables you can use in Jekyll minima. The best way is to check the files in the [minima repository](https://github.com/jekyll/minima/tree/master). As an example, if you look at `minima/_layouts/home.html` one can see that if a `title` is defined on the page it will be displayed.
 
 ~~~
-{% raw %}
-{%- if page.title -%}
+{% raw %}{%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>
-{%- endif -%} 
-{% endraw %}
+{%- endif -%}{% endraw %}
 ~~~
 
 ## To change minima default footer layout
