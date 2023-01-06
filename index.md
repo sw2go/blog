@@ -1,4 +1,5 @@
 ---
+layout: home
 ---
-Insights and tips for IT interested people like you and me.
+Welcome to my blog on IT topics like development and tools. 
 
