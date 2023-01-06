@@ -42,15 +42,11 @@ lorem ipsum ..
 
 ## Jekyll minima variables
 I did not find a complete list of the variables you can use in Jekyll minima. The best way is to check the files in the [minima repository](https://github.com/jekyll/minima/tree/master). As an example, if you look at `minima/_layouts/home.html` one can see that if a `title` is defined on the page it will be displayed.
-~~~
----
-layout: default
----
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%} 
+~~~
+{%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+{%- endif -%} 
 ~~~
 
 ## To change minima default footer layout
