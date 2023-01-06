@@ -1,5 +1,5 @@
 ---
 layout: home
 ---
-Welcome to my blog on IT topics like development and tools. 
-![drop](img/pixabay/hd-wallpaper-3698073_640.jpg)
+![drop](img/pixabay/light-bulbs-1407610_1280.jpg)
+Welcome to my blog about IT and development. 
